@@ -10,7 +10,8 @@ $(document).ready(function() {
     var age = parseInt($("#age").val());; console.log(age)
     $("#show-ticket-price").show();
 
-    $("#show-ticket-price").text("Movie Title: " + movieTitle);
+    $(".movie-title").text(movieTitle);
+    $(".movie-time").text(movieTime);
   });
 
 });
